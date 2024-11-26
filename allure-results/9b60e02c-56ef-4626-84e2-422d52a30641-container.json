@@ -1,0 +1,1 @@
+{"uuid":"9b60e02c-56ef-4626-84e2-422d52a30641","name":"AQA_Framework","children":["6c6bdd94-1a4a-45ea-bf04-95769caa0263"],"befores":[],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1732639363699,"stop":1732639363956}],"start":1732639358197,"stop":1732639363963}
