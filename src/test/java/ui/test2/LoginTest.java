@@ -1,4 +1,4 @@
-package ui;
+package ui.test2;
 
 import bo.LoginBO;
 import driver.DriverProvider;
@@ -12,11 +12,11 @@ public class LoginTest {
     public void testLogin() {
         // Step 1: Input login
         new LoginBO().login();
-        LoginBO.inputLogin("andrew.doe");
+        LoginBO.inputLogin("artur.chopyk.150@gmail.com");
         LoginBO.clickLoginButton();
 
         // Step 2: Input password
-        LoginBO.inputPassword("password123");
+        LoginBO.inputPassword("examplePasswordTest123%%%");
 
         // Step 3: Click submit
         LoginBO.clickLoginButton();
